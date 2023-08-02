@@ -6,14 +6,20 @@ This is a repository for a paper about NILM multi-label robustness. It contains 
 
 ## File Descriptions
 
+- `Split_processed_data.ipynb`: This notebook file focuses on splitting the processed energy consumption datasets into train, validation, and test subsets, facilitating model training and evaluation.
+
 - `Daily_normalization_merger.ipynb`: This notebook file includes functions for merging and normalizing datasets to be split into individual days, allowing for more comprehensive and consistent data analysis.
 
-- `HES_parser.ipynb`: This notebook file contains a parser specifically designed for the Household Electricity Survey (HES) dataset, enabling data extraction and preparation for downstream tasks.
+- `Train_Test_Validate.ipynb`: This notebook file includes functions and tools for training DL models using Ecopirnat or VGG models, testing and validating the processed datasets.
+
+### Parsers
+
+- `Parse_NILMTK.ipynb`: This notebook file provides a "universal" parser for datasets in the NILMTK format, allowing for consistent data extraction and manipulation across various NILMTK-compatible datasets.
+
+- `Parse_HES.ipynb`: This notebook file contains a parser specifically designed for the Household Electricity Survey (HES) dataset, enabling data extraction and preparation for downstream tasks.
 
 - `Parse_lerta.ipynb`: This notebook file is responsible for parsing and handling the LERTA dataset, allowing for data extraction and manipulation.
 
-- `Test_Validate.ipynb`: This notebook file includes functions and tools for testing and validating the processed datasets, ensuring data quality and accuracy before further analysis.
+- `Parse_DRED.ipynb`:  This notebook file is responsible for parsing and handling the DRED dataset, allowing for data extraction and manipulation.
 
-- `nilmtk_parser.ipynb`: This notebook file provides a "universal" parser for datasets in the NILMTK format, allowing for consistent data extraction and manipulation across various NILMTK-compatible datasets.
-
-- `split_processed_data.ipynb`: This notebook file focuses on splitting the processed energy consumption datasets into train, validation, and test subsets, facilitating model training and evaluation.
+  
